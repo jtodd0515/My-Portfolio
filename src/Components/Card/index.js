@@ -1,0 +1,3 @@
+// Just to make importing easier in the long run...
+
+export { default } from './Card';
