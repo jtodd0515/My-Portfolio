@@ -14,13 +14,12 @@ export default class ProfileCard extends Component {
 
     render() {
         return (
-             <Card style={{ width: '50em' }}>
+             <Card className="card container" bg="transparent" style={{ width: '50em' }}>
                 <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                <Card.Title className="h1">Full Stack Web Developer</Card.Title>
+                
+                <Card.Text className="card-text">
+                    I am a full stack web developer specializing in Ruby on Rails and JavaScript.
                 </Card.Text>
                 <Card.Link href="#">Card Link</Card.Link>
                 <Card.Link href="#">Another Link</Card.Link>
