@@ -1,11 +1,14 @@
-.card-text {
-    margin-left: 6px;
-}
+
 .card-img {
-    max-width:100%;
+    max-width:100px;
     height:auto;
 }
-.button {
-    margin-top: 1.5em;
-    align-content: center;
+
+.edge {
+    font-size: 1.2em;
+    text-align: left;
+}
+.scroll {
+    max-height: 200px;
+    overflow-y: auto;
 }
