@@ -21,11 +21,3 @@ h2 {
   text-decoration: underline;
   text-transform: uppercase;
 }
-.card {
-  text-align: center;
-  margin-top: 12em;
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  background-color: transparent;
-}

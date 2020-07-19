@@ -4,19 +4,17 @@ import { Jumbotron } from 'react-bootstrap';
 
 import './Project.css';
 
-export default class Jumbotron extends Component {
+export default class Fluid extends Component {
     
     render(){
         return (
-            <Jumbotron fluid>
-  <Container>
-    <h1>Fluid jumbotron</h1>
-    <p>
-      This is a modified jumbotron that occupies the entire horizontal space of
-      its parent.
-    </p>
-  </Container>
-</Jumbotron>
+            <Jumbotron fluid className="jumbotron">
+            
+            <h1>Projects</h1>
+            <p>
+              These are the projects I have created using various languages.
+            </p>
+            </Jumbotron>
         )
     }
 }

@@ -2,7 +2,10 @@ import React from 'react';
 
 import './App.css';
 import ProfileCard from './Components/Card';
+import MeCard from './Components/About';
+import Jumbotron from './Components/Project';
 import Footer from './Components/Footer';
+
 
 
 function App() {
@@ -25,7 +28,7 @@ function App() {
               <a className="nav-link" href="about.html">About</a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="projects.html">Projects</a>
+              <a className="nav-link" href="<Jumbotron />">Projects</a>
             </li>
             <li className="nav-item active">
               <a className="nav-link" href="contact.html">Contact</a>
@@ -34,6 +37,8 @@ function App() {
         </div>
       </nav>
       <ProfileCard />
+      <MeCard />
+      <Jumbotron />
       
 
 

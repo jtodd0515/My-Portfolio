@@ -1,0 +1,11 @@
+.card-text {
+    margin-left: 6px;
+}
+.card-img {
+    max-width:100%;
+    height:auto;
+}
+.button {
+    margin-top: 1.5em;
+    align-content: center;
+}
