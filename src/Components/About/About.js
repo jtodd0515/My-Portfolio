@@ -16,7 +16,7 @@ export default class MeCard extends Component {
     render() {
         return (
 
-        <Card className="card container" bg="transparent" style={{ width: '50rem' }}>
+        <Card className="card2 container" bg="transparent" style={{ width: '50rem' }}>
             
             <Card.Img className="card-img" variant="left" src={Headshot} alt="Profile Headshot" />
             <Button className="button" variant="primary" href="./Resume/Resume-pdf.pdf">Resume</Button>
