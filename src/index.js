@@ -6,6 +6,9 @@ import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
 // Put any other imports below so that CSS from your
 // components takes precedence over default styles.
+// import your fontawesome library
+import './fontawesome';
+
 ReactDOM.render(
   <App />,
   document.getElementById('root')
