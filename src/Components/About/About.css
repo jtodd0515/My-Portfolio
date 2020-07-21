@@ -1,16 +1,9 @@
-.card2{
-    margin-top: 25em;
-}
 .card-img {
-    max-width:100px;
-    height:auto;
+    max-width: 20rem;
+    height: auto;
+    margin: 2rem auto;
 }
 
-.edge {
-    font-size: 1.2em;
-    text-align: left;
-}
-.scroll {
-    max-height: 200px;
-    overflow-y: auto;
+div.card-body {
+    background-color: rgba(50, 50, 50, .8);
 }
