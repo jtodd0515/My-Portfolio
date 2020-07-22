@@ -21,8 +21,8 @@ export default class ProfileCard extends Component {
                 <Card.Text className="card-text">
                     I am a full stack web developer specializing in Ruby on Rails and JavaScript.
                 </Card.Text>
-                <Card.Link href="#">Card Link</Card.Link>
-                <Card.Link href="#">Another Link</Card.Link>
+                {/* <Card.Link href="#">Card Link</Card.Link>
+                <Card.Link href="#">Another Link</Card.Link> */}
                 </Card.Body>
             </Card>
         )
