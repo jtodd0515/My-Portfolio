@@ -5,6 +5,7 @@ import ProfileCard from './Components/Card';
 import MeCard from './Components/About';
 import Jumbotron from './Components/Project';
 import Footer from './Components/Footer';
+import Projectcard from './Components/Projectcard';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
       <ProfileCard />
       <MeCard />
       <Jumbotron />
+      <Projectcard />
       <Footer />
     </div>
   );

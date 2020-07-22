@@ -3,4 +3,4 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 
 library.add(fab);
 
-export default library
+export default library;

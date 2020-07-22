@@ -16,7 +16,7 @@ export default class ProfileCard extends Component {
         return (
              <Card className="card container" bg="transparent" style={{ width: '50em' }}>
                 <Card.Body>
-                <Card.Title className="h1">Full Stack Web Developer</Card.Title>
+                <Card.Title>Full Stack Web Developer</Card.Title>
                 
                 <Card.Text className="card-text">
                     I am a full stack web developer specializing in Ruby on Rails and JavaScript.

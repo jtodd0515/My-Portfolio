@@ -4,6 +4,6 @@
     margin: 2rem auto;
 }
 
-div.card-body {
+.card2 .card-body {
     background-color: rgba(50, 50, 50, .8);
 }
