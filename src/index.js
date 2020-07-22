@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 // Put any other imports below so that CSS from your
 // components takes precedence over default styles.
 // import your fontawesome library
-import './fontawesome';
+import './Fontawesome';
 
 ReactDOM.render(
   <App />,
@@ -18,3 +18,5 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+// https://cdn.fontawesome.com/

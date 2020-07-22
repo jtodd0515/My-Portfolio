@@ -20,18 +20,6 @@ function App() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-<<<<<<< HEAD
-              <a className="nav-link" href='#'>Home <span className="sr-only">(current)</span></a>
-            </li>
-            <li className="nav-item active">
-              <a className="nav-link" href='#About'>About</a>
-            </li>
-            <li className="nav-item active">
-              <a className="nav-link" href='#Jumbotron'>Projects</a>
-            </li>
-            <li className="nav-item active">
-              <a className="nav-link" href='#Contact'>Contact</a>
-=======
               <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item active">
@@ -42,7 +30,6 @@ function App() {
             </li>
             <li className="nav-item active">
               <a className="nav-link" href="#contact">Contact</a>
->>>>>>> 8984279c832c93a4ed8cd5c785b9ed9183622e29
             </li>
           </ul>
         </div>
