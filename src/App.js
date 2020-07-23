@@ -6,6 +6,7 @@ import MeCard from './Components/About';
 import Jumbotron from './Components/Project';
 import Footer from './Components/Footer';
 import Projectcard from './Components/Projectcard';
+import Contact from './Components/Contact';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
       <MeCard />
       <Jumbotron />
       <Projectcard />
+      <Contact />
       <Footer />
     </div>
   );
