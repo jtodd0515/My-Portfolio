@@ -1,16 +1,16 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
+import weatherapp1 from '../../images/weatherapp1.png';
 export default function Projectcard() {
     return (
         <div className="container">
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="https://placehold.it/286x180" />
+                <Card.Img variant="top" src={weatherapp1} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Weather App</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        App Developed to show weather of zip code entered by user. The app was made with Ruby and utilizes Geocoder gem.
                     </Card.Text>
                 </Card.Body>
             </Card>
