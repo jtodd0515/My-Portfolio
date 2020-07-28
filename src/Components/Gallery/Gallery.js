@@ -1,32 +1,30 @@
-import React, { Component } from "react";
-import Lightbox from 'fslightbox-react'; 
+import React, { useState } from "react";
+import FsLightbox from 'fslightbox-react';
 
-export default class ImageLightbox extends Component {
-  state = {
-    isVisible: true,
-  }
-  render() {
-    return (
-      <div>
-        <button
-          onClick={() => {
-            this.setState({ isVisible: !this.state.isVisible })
-          }}
-        >
-          toggle lightbox
+export const Gallery = (props) => {
+  const [visible, setVisible] = useState(false);
+
+  return (
+    <div>
+      <button
+        onClick={() => setVisible(!visible)}
+      >
+        toggle lightbox
         </button>
-        <Lightbox
-          toggler={this.state.isVisible}
-          urls={[
-            '../../images/weatherapp1.png',
-            '../../images/weatherapp2.png',
-            'image3.jpg',
-            'image4.jpg',
-            'image5.jpg',
-            'image6.jpg'
-          ]}
-        />
-      </div>
-    );
-  }
-}
+      <FsLightbox
+        toggler={visible}
+        urls={[
+          'https://i.imgur.com/fsyrScY.jpg'
+          // '/images/weatherapp1.png',
+          // '/images/weatherapp2.png',
+          // 'image3.jpg',
+          // 'image4.jpg',
+          // 'image5.jpg',
+          // 'image6.jpg'
+        ]}
+      />
+    </div>
+  );
+};
+
+export default Gallery;

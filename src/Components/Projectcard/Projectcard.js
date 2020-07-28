@@ -1,16 +1,22 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
-import weatherapp1 from '../../images/weatherapp1.png';
-export default function Projectcard() {
+import './Projectcard.css';
+
+export default function Projectcard(props) {
+
+    const imageUrl = props.imageUrl;
+    const title = props.title;
+    const text = props.text;
+
     return (
         <div className="container">
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={weatherapp1} />
+            <Card className='w-18r'>
+                <Card.Img variant="top" src={imageUrl} />
                 <Card.Body>
-                    <Card.Title>Weather App</Card.Title>
-                    <Card.Text>
-                        App Developed to show weather of zip code entered by user. The app was made with Ruby and utilizes Geocoder gem.
+                    <Card.Title className='black-text'>{title}</Card.Title>
+                    <Card.Text className='black-text'>
+                        {text}
                     </Card.Text>
                 </Card.Body>
             </Card>
