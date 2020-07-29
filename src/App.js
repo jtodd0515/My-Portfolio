@@ -7,6 +7,9 @@ import Jumbotron from './Components/Project';
 import Footer from './Components/Footer';
 import Projectcard from './Components/Projectcard';
 import Contact from './Components/Contact';
+import Gallery from './Components/Gallery';
+
+import projectData from './projectData';
 
 function App() {
   return (
@@ -39,7 +42,15 @@ function App() {
       <ProfileCard />
       <MeCard />
       <Jumbotron />
-      <Projectcard />
+      {/* projectData is an array of objects, all arrays have a map method */}
+      {/* https://www.w3schools.com/jsref/jsref_map.asp */}
+      {
+        projectData.map((item, i) => {
+          return <Projectcard key={`${item.imageUrl}-${i}`} imageUrl={item.imageUrl} title={item.title} text={item.text} />;
+        })
+      }
+      {/* <Gallery /> */}
+      
       <Contact />
       <Footer />
     </div>
