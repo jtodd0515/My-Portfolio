@@ -49,7 +49,6 @@ function App() {
           return <Projectcard key={`${item.imageUrl}-${i}`} imageUrl={item.imageUrl} title={item.title} text={item.text} />;
         })
       }
-      {/* <Gallery /> */}
       
       <Contact />
       <Footer />
