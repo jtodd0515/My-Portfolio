@@ -11,8 +11,8 @@ export default function Projectcard(props) {
 
     return (
         <div className="container">
-            <Card className='w-18r'>
-                <Card.Img variant="top" src={imageUrl} />
+            <Card className='w-10r'>
+            <a href='gallery.js' target='_blank'><Card.Img variant="top" src={imageUrl}  /></a>
                 <Card.Body>
                     <Card.Title className='black-text'>{title}</Card.Title>
                     <Card.Text className='black-text'>
