@@ -15,11 +15,7 @@ export default function Contact() {
                     );
                 })
             }
-            {/* <a href='/beihwsgvdn'>
-                <FontAwesomeIcon icon={index, i} size="6x" />
-            </a>
-            <FontAwesomeIcon icon={['fas', 'envelope']} size="6x" />
-            <FontAwesomeIcon icon={['fab', 'github-square']} size="6x" /> */}
+            
         </div>
     )
 }
