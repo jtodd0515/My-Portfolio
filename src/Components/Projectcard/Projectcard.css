@@ -6,3 +6,8 @@ div.black-text, .black-text {
 .w-10r {
     width: 20rem;
 }
+
+div.projectcard-container {
+    cursor: pointer;
+    
+}

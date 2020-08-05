@@ -8,7 +8,8 @@ import Footer from './Components/Footer';
 import Projectcard from './Components/Projectcard';
 import Contact from './Components/Contact';
 import Gallery from './Components/Gallery';
-
+import Lightbox from './Components/Lightbox';
+import lightboximages from './data/imageData';
 import projectData from './projectData';
 
 function App() {
@@ -16,6 +17,12 @@ function App() {
     <div className="App">
 
       <div className="body">
+        {/* <Gallery /> */}
+        {/* {
+          lightboximages.map((imagesArray, i) => {
+            return <Lightbox key={i} sources={imagesArray} />
+          })
+        } */}
       </div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-black container">
         <h2>James Todd</h2>
@@ -44,15 +51,20 @@ function App() {
       <Jumbotron />
       {/* projectData is an array of objects, all arrays have a map method */}
       {/* https://www.w3schools.com/jsref/jsref_map.asp */}
-      {
-        projectData.map((item, i) => {
-          return <Projectcard key={`${item.imageUrl}-${i}`} imageUrl={item.imageUrl} title={item.title} text={item.text} />;
-        })
-      }
-      
-      <Contact />
-      <Footer />
-    </div>
+      <div className='card-container'>
+        {
+          projectData.map((item, i) => {
+            return (
+              <Lightbox key={`${item.imageUrl}-${i}`} sources={lightboximages[i]}>
+                <Projectcard imageUrl={item.imageUrl} title={item.title} text={item.text} />
+              </Lightbox>
+            );
+          })
+        }
+        </div>
+        <Contact />
+        <Footer />
+      </div>
   );
 }
 

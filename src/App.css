@@ -25,3 +25,10 @@ h2 {
   z-index: 100;
 
 }
+
+div.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+

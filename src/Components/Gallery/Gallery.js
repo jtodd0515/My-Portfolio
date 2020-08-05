@@ -4,12 +4,12 @@ import ImageGallery from 'react-image-gallery';
 
 export const images = [
   {
-    original: 'weatherapp1.png/id/1018/1000/600/',
-    thumbnail: 'weatherapp1.png/id/1018/250/150/',
+    original: '/images/weatherapp1.png',
+    thumbnail: '/images/weatherapp1.png',
   },
   {
-    original: 'weatherapp2.png/id/1015/1000/600/',
-    thumbnail: 'weatherapp2.png/id/1015/250/150/',
+    original: '/images/weatherapp2.png',
+    thumbnail: '/images/weatherapp2.png',
   },
   {
     original: 'https://picsum.photos/id/1019/1000/600/',

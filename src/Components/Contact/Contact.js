@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import contactData from './contactData';
-
+import './Contact.css'
 export default function Contact() {
     return (
         <div className="icon container">
