@@ -10,7 +10,7 @@ export default function Projectcard(props) {
   const text = props.text;
 
   return (
-    <div className="projectcard-container">
+    <div className="container">
       <Card className='w-10r'>
         {/* <a href='gallery.js' target='_blank'> */}
           <Card.Img variant="top" src={imageUrl} />

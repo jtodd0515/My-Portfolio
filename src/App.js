@@ -7,7 +7,6 @@ import Jumbotron from './Components/Project';
 import Footer from './Components/Footer';
 import Projectcard from './Components/Projectcard';
 import Contact from './Components/Contact';
-import Gallery from './Components/Gallery';
 import Lightbox from './Components/Lightbox';
 import lightboximages from './data/imageData';
 import projectData from './projectData';
