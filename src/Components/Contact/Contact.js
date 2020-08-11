@@ -9,7 +9,7 @@ export default function Contact() {
                 contactData.map((item, i) => {
                     const { icon, href } = item;
                     return (
-                        <a href={href} target='_blank' key={`${href}-${i}`}>
+                        <a href={href} target='_blank' key={`${href}-${i}`} rel='noopener noreferrer'>
                             <FontAwesomeIcon icon={ icon } size="6x" />
                         </a>
                     );
