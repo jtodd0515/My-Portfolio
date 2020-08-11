@@ -11,9 +11,9 @@ export const martaAppImages = [
 ]
 
 export const herokuImages = [
-    '/images/heroku1.png',
     '/images/heroku2.png',
-    '/images/heroku3.png'
+    '/images/heroku3.png',
+    '/images/heroku1.png'
 ]
 
 const lightboximages = [

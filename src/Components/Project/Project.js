@@ -11,7 +11,7 @@ export default class Fluid extends Component {
       <Jumbotron fluid className="jumbotron" id='projects'>
 
         <h1>Projects</h1>
-        <p>
+        <p className="paragraph">
           These are the projects I have created using various languages.
             </p>
       </Jumbotron>

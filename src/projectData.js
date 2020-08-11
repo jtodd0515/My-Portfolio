@@ -11,7 +11,7 @@ export const projectData = [
         text: 'App developed using ruby to show location of Atlanta area transit buses'
     },
     {
-        imageUrl: '/images/heroku1.png',
+        imageUrl: '/images/heroku2.png',
         title: 'Heroku deployment app',
         text: 'App developed to show a list of users with team numbers. App built with ruby, postgreSQL, and heroku.'
     }

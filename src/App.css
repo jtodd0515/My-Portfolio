@@ -11,7 +11,8 @@ h2 {
   margin-left: 5em;
   color: rgb(255, 255, 255);
 }
-.navbar-nav {
+ul.navbar-nav {
+  background-color: black;
   margin-left: 25em;
   font-family: 'Kanit', sans-serif;
   position: fixed;
