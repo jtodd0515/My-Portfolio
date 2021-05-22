@@ -1,4 +1,11 @@
 
+export const journalMEImages = [
+    '/images/journalME1.JPG',
+    '/images/journalME2.JPG',
+    '/images/journalME3.JPG',
+    '/images/journalME4.JPG'
+
+]
 export const weatherAppImages = [
     '/images/weatherapp1.png',
     '/images/weatherapp2.png'
@@ -17,6 +24,7 @@ export const herokuImages = [
 ]
 
 const lightboximages = [
+    journalMEImages,
     weatherAppImages,
     martaAppImages,
     herokuImages

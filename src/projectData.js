@@ -1,6 +1,11 @@
 
 export const projectData = [
     {
+        imageUrl: '/images/journalME1.JPG',
+        title: 'JournalME',
+        text: 'App developed in React using yarn. It is an electronic journal where users can login and create journal entries.'
+    },
+    {
         imageUrl: '/images/weatherapp2.png',
         title: 'Weather app',
         text: 'App developed to show weather of zip code entered by user. The app was made with Ruby and utilizes Geocoder gem.'
