@@ -16,10 +16,10 @@ export default class ProfileCard extends Component {
         return (
              <Card className="card container" bg="transparent" style={{ width: '50em' }}>
                 <Card.Body>
-                <Card.Title>Full Stack Web Developer</Card.Title>
+                <Card.Title>Computer Programmer</Card.Title>
                 
                 <Card.Text className="card-text">
-                    I am a full stack web developer specializing in Ruby on Rails and JavaScript.
+                    I am a Computer Programmer with work in Java, C++, and other languages.
                 </Card.Text>
                 {/* <Card.Link href="#">Card Link</Card.Link>
                 <Card.Link href="#">Another Link</Card.Link> */}
